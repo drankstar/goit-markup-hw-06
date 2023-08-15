@@ -1,0 +1,112 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 426px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 798px;
+  }
+  .advantages-list {
+    display: flex;
+    gap: 24px;
+  }
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .advantages-subtitle {
+    text-align: left;
+  }
+  .advantages-text {
+    width: 351px;
+  }
+  .team-list {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .team-item {
+    margin: 0 24px;
+    width: calc((100% - 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    border: 1px solid transparent;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+  .advantages {
+    padding: 120px 0;
+  }
+  .advantages-item {
+    width: 264px;
+  }
+  .advantages-list {
+    display: flex;
+    gap: 24px;
+  }
+  .advantages-icons {
+    display: flex;
+    fill: #2e2f42;
+  }
+  .advantages-icons-top {
+    margin-bottom: 8px;
+    background-color: var(--cloud);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid var(--cloud);
+    width: 264px;
+    height: 112px;
+  }
+  .advantages-text {
+    width: 264px;
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .main {
+    padding-bottom: 120px;
+  }
+
+  .main-list {
+    display: flex;
+    gap: 24px;
+  }
+  .main-titel {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
+    color: var(--navyblue);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    display: flex;
+    margin-bottom: 72px;
+  }
+  .team {
+    margin: 0 auto;
+    padding: 120px 0;
+    background-color: var(--cloud);
+  }
+  .team-list {
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 24px;
+  }
+
+  .team-item {
+    margin: 0 0;
+    background-color: var(--white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+}

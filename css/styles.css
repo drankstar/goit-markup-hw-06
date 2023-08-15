@@ -233,42 +233,44 @@ img {
 }
 
 .advantages {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 .advantages-list {
+  flex-wrap: wrap;
   display: flex;
-  gap: 24px;
+  gap: 72px;
 }
 .advantages-item {
-  width: 264px;
+  margin: 0 auto;
+  width: 100%;
 }
+
 .advantages-icons {
+  display: none;
   fill: #2e2f42;
 }
-.advantages-icons-top {
-  margin-bottom: 8px;
-  background-color: var(--cloud);
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  border-radius: 4px;
-  border: 1px solid var(--cloud);
-  width: 264px;
-  height: 112px;
-}
+
 .advantages-subtitle {
   margin-bottom: 8px;
-  color: var(--navyblue);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 .advantages-text {
-  color: var(--slate);
+  color: var(--slate, #434455);
+  font-family: Roboto;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  /* color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;*/
 }
 
 .main-titel {
@@ -279,31 +281,38 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-.main {
-  padding-bottom: 120px;
-}
-.main-titel {
+  display: none;
   margin-bottom: 72px;
 }
-.main-list {
+.main {
   display: flex;
+  /* padding-bottom: 120px;*/
+}
+
+.main-list {
+  display: none;
   gap: 24px;
 }
 
 .team {
   margin: 0 auto;
-  max-width: 1440px;
-  padding: 120px 0;
+  /* max-width: 1440px;*/
+  padding: 96px 0;
   background-color: var(--cloud);
 }
-.team-item {
+/*.team-item {
+  width: 264px;
   width: calc((100% - 72px) / 4);
   background-color: var(--white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+}*/
 .team-item-name {
+  background-color: var(--white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  background-color: var(--white);
+  width: 264px;
   padding: 32px 0;
 }
 .team-titel {
@@ -316,8 +325,11 @@ img {
   text-transform: capitalize;
 }
 .team-list {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   display: flex;
-  gap: 24px;
+  gap: 72px;
 }
 .team-subtitel {
   text-align: center;
