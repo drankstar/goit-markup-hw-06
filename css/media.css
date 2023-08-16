@@ -2,19 +2,21 @@
   .container {
     max-width: 426px;
   }
+
   .customers-items {
     display: flex;
-    margin-right: 16px;
     margin-bottom: 72px;
-    width: calc((100% - 36px) / 3);
+    width: calc((100% - 16px) / 2);
     height: 88px;
-    width: 190px;
+  }
+  .input-form-footer {
+    width: 398px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 798px;
+    max-width: 768px;
   }
   .advantages-list {
     display: flex;
@@ -27,7 +29,7 @@
     text-align: left;
   }
   .advantages-text {
-    width: 351px;
+    width: 356px;
   }
   .team-list {
     justify-content: center;
@@ -42,8 +44,44 @@
     border-radius: 0px 0px 4px 4px;
     border: 1px solid transparent;
   }
+  .customers-list {
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .customers-items {
+    margin-bottom: 72px;
+    width: 168px;
+    height: 88px;
+  }
+  .footer-logo-content {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: baseline;
+  }
+  .footer-social-media {
+    align-items: baseline;
+    justify-content: left;
+    display: flex;
+    margin-left: 24px;
+  }
+  .logo-content-footer {
+    margin-left: 108px;
+  }
+  .footer-input {
+    flex-direction: column;
+    margin-top: 72px;
+    align-items: normal;
+    display: flex;
+    margin-left: 108px;
+  }
+  .input-form-footer {
+    width: 264px;
+  }
+  .footer-form-input {
+    gap: 24px;
+  }
 }
-
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;

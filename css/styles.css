@@ -392,15 +392,15 @@ img {
 .customers-list {
   align-items: center;
   justify-content: center;
-  /*gap: 24px;*/
+  gap: 16px;
   display: flex;
   flex-wrap: wrap;
 }
 .customers-items {
   display: flex;
-  margin-right: 16px;
+
   margin-bottom: 72px;
-  width: calc((100% - 36px) / 3);
+  /* width: calc((100% - 36px) / 3);*/
   height: 88px;
   width: 120px;
 }
@@ -426,17 +426,19 @@ img {
   border: 1px solid #404bbf;
 }
 .footer {
-  margin: 0 auto;
+  /*margin: 0 auto;
   max-width: 1440px;
-  position: relative;
+  position: relative;*/
   display: flex;
   padding: 100px 0;
   background-color: var(--navyblue);
 }
 
 .footer-logo {
+  justify-content: center;
+  align-items: center;
   margin-bottom: 16px;
-  display: inline-block;
+  display: flex;
   color: var(--cloud);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -455,6 +457,8 @@ img {
   text-transform: uppercase;
 }
 .footer-text {
+  margin: 0 auto;
+  text-align: left;
   width: 264px;
   color: var(--cloud);
   font-size: 16px;
@@ -475,13 +479,24 @@ img {
   gap: 16px;
   display: flex;
 }
-.footer-logo-content {
+.footer-social-media {
+  flex-direction: column;
+  margin-top: 72px;
   display: flex;
-  align-items: baseline;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-.logo-content-footer {
+.footer-logo-content {
+  /* justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  align-items: baseline;*/
+}
+/*.logo-content-footer {
   margin-right: 120px;
-}
+}*/
 .socials-link-media {
   fill: #f4f4fd;
 }
@@ -823,11 +838,19 @@ img {
   fill: #f4f4fd;
 }
 .footer-form-input {
+  align-items: center;
+  flex-wrap: wrap;
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-input {
-  margin-left: 80px;
+  margin-top: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+
+  /* margin-left: 80px;*/
 }
 .footer-input-titel {
   margin-bottom: 16px;
@@ -852,7 +875,7 @@ img {
   letter-spacing: 0.04em;
   padding-left: 16px;
   background-color: transparent;
-  width: 264px;
+  width: 290px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid #fff;
@@ -861,6 +884,7 @@ img {
   color: #fff;
 }
 .footer-input-btn {
+  margin: 0 auto;
   cursor: pointer;
   min-width: 165px;
   color: #fff;
