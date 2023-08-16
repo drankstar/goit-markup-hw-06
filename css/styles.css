@@ -838,6 +838,7 @@ img {
   fill: #f4f4fd;
 }
 .footer-form-input {
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   display: flex;
