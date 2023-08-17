@@ -435,10 +435,19 @@ img {
 }
 
 .footer-logo {
+  color: var(--iris);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   justify-content: center;
   align-items: center;
   margin-bottom: 16px;
   display: flex;
+}
+
+.footer-logo-studio {
   color: var(--cloud);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -447,15 +456,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo-web {
-  color: var(--iris);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 .footer-text {
   margin: 0 auto;
   text-align: left;
@@ -617,23 +618,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.footer-logo {
-  color: var(--iris);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.footer-logo-studio {
-  color: var(--cloud);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 .backdrop {
   position: fixed;
   width: 100%;

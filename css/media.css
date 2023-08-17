@@ -159,6 +159,7 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
   .customers-list {
+    width: 100%;
     align-items: center;
     justify-content: center;
     gap: 24px;
@@ -170,5 +171,25 @@
     margin-bottom: 0;
     width: calc((100% - 120px) / 6);
     height: 88px;
+  }
+  .footer-logo {
+    justify-content: left;
+    color: var(--iris);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: flex;
+  }
+  .logo-content-footer {
+    margin-left: 0;
+  }
+  .footer-social-media {
+    margin-left: 120px;
+  }
+  .footer-input {
+    margin-left: 80px;
   }
 }
