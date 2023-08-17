@@ -2,6 +2,18 @@
   .container {
     max-width: 426px;
   }
+  .hero-title {
+    height: 80px;
+    display: block;
+    margin-left: 54px;
+    margin-right: 54px;
+    width: 320px;
+    text-align: center;
+    color: var(--white);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+  }
 
   .customers-items {
     display: flex;
@@ -17,6 +29,29 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab.jpg);
+    padding: 188px 0 188px;
+  }
+  .hero-title {
+    height: 120px;
+    display: block;
+    margin-left: 136px;
+    margin-right: 136px;
+    width: 496px;
+    text-align: center;
+    color: var(--white);
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+  .hero-but {
+    margin-top: 36px;
   }
   .advantages {
     margin: 0 auto;
@@ -92,7 +127,26 @@
   .container {
     max-width: 1158px;
   }
-
+  .hero {
+    width: 1440px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    padding: 188px 0 188px;
+  }
+  .hero-title {
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 496px;
+  }
+  .hero-but {
+    margin-top: 48px;
+  }
   .advantages {
     margin: 0 auto;
     width: 1440px;

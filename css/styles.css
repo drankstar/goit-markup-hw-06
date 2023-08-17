@@ -170,8 +170,8 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
-  padding: 188px 0 188px;
+    url(../images/people-office-mob.jpg);
+  padding: 112px 0 112px;
   background-color: var(--navyblue);
   display: flex;
   max-width: 1440px;
@@ -184,11 +184,11 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 496px;
+  width: 290px;
   text-align: center;
   color: var(--white);
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 28px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 .hero-but:focus {
@@ -218,7 +218,7 @@ img {
   border: none;
   cursor: pointer;
   display: block;
-  margin-top: 48px;
+  margin-top: 72px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
