@@ -24,6 +24,13 @@
   .input-form-footer {
     width: 398px;
   }
+  .modal {
+    width: 392px;
+    padding: 72px 16px 16px 16px;
+  }
+  .modal-comment {
+    width: 360px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -161,6 +168,10 @@
 
   .mobil-menu-but {
     display: none;
+  }
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
   }
 }
 @media screen and (min-width: 1158px) {
