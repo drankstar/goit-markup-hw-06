@@ -49,8 +49,8 @@ img {
 .container {
   width: 100%;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
@@ -101,7 +101,7 @@ img {
   align-items: center;
 }
 .header-logo {
-  margin-left: 16px;
+  /* margin-left: 16px;*/
   margin-top: 24px;
   margin-bottom: 24px;
   /*margin-right: 76px;*/

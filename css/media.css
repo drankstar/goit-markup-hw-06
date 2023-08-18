@@ -250,9 +250,10 @@
     padding: 120px 0;
   }
   .advantages-item {
-    width: 264px;
+    width: calc((100% - 24px) / 4);
   }
   .advantages-list {
+    flex-wrap: nowrap;
     display: flex;
     gap: 24px;
   }
