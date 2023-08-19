@@ -547,9 +547,6 @@ img {
 }
 .customers-items {
   display: flex;
-
-  margin-bottom: 72px;
-  /* width: calc((100% - 36px) / 3);*/
   height: 88px;
   width: 120px;
 }
