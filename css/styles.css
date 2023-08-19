@@ -186,7 +186,7 @@ img {
   position: fixed;
   top: 0;
   background-color: #ffffff;
-  padding: 40px;
+  padding: 46px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -273,7 +273,7 @@ img {
 .mob-address-link:focus {
   color: var(--iris, #4d5ae5);
   font-family: Roboto;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
