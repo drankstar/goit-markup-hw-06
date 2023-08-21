@@ -136,6 +136,7 @@
     align-items: baseline;
   }
   .footer-social-media {
+    margin-top: unset;
     align-items: baseline;
     justify-content: left;
     display: flex;
